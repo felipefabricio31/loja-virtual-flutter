@@ -20,7 +20,23 @@ class HomeTab extends StatelessWidget {
 
     //Stack - Responsável por colocar o conteúdo sobrepondo.
     return Stack(
-      children: <Widget>[_builderBodyBlack()],
+      children: <Widget>[
+        _builderBodyBlack(),
+        CustomScrollView(
+          slivers: <Widget>[
+            SliverAppBar(
+              floating: true,
+              snap: true,
+              backgroundColor: Colors.transparent,
+              elevation: 0.0,
+              flexibleSpace: FlexibleSpaceBar(
+                title: const Text("Novidades"),
+                centerTitle: true,
+              ),
+            )
+          ],
+        ),
+      ],
     );
   }
 }
