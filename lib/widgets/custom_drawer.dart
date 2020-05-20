@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:loja_virtual/tiles/drawer_tile.dart';
 
 class CustomDrawer extends StatelessWidget {
-  const CustomDrawer({Key key}) : super(key: key);
+  final PageController pageController;
+
+  CustomDrawer(this.pageController);
 
   @override
   Widget build(BuildContext context) {
@@ -66,10 +68,11 @@ class CustomDrawer extends StatelessWidget {
                 ),
               ),
               Divider(),
-              DrawerTile(Icons.home, "Ínicio"),
-              DrawerTile(Icons.list, "Produtos"),
-              DrawerTile(Icons.location_on, "Lojas"),
-              DrawerTile(Icons.playlist_add_check, "Meus Pedidos"),
+              DrawerTile(Icons.home, "Início", pageController, 0),
+              DrawerTile(Icons.list, "Produtos", pageController, 1),
+              DrawerTile(Icons.location_on, "Lojas", pageController, 2),
+              DrawerTile(
+                  Icons.playlist_add_check, "Meus Pedidos", pageController, 3),
             ],
           ),
         ],
