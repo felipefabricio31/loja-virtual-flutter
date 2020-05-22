@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 class OrderScreen extends StatelessWidget {
   final String orderId;
+
   OrderScreen(this.orderId);
 
   @override
@@ -12,8 +13,8 @@ class OrderScreen extends StatelessWidget {
         centerTitle: true,
       ),
       body: Container(
-        alignment: Alignment.center,
         padding: EdgeInsets.all(16.0),
+        alignment: Alignment.center,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
@@ -23,19 +24,13 @@ class OrderScreen extends StatelessWidget {
               size: 80.0,
             ),
             Text(
-              "Pedido Realizado com sucesso!",
+              "Pedido realizado com sucesso!",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 18.0),
-            ),
-            SizedBox(
-              height: 12.0,
             ),
             Text(
               "Código do pedido: $orderId",
-              style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 16.0,
-              ),
-            ),
+              style: TextStyle(fontSize: 16.0),
+            )
           ],
         ),
       ),
