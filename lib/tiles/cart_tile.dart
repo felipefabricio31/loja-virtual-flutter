@@ -10,7 +10,69 @@ class CartTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Widget _buildContent() {
-      return 
+      return Row(
+        mainAxisAlignment: MainAxisAlignment.start,
+        children: <Widget>[
+          Container(
+            width: 120.0,
+            child: Image.network(
+              cartProduct.productData.images[0],
+              fit: BoxFit.cover,
+            ),
+          ),
+          Expanded(
+            child: Container(
+              padding: EdgeInsets.all(8.0),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: <Widget>[
+                  Text(
+                    cartProduct.productData.title,
+                    style:
+                        TextStyle(fontSize: 17.0, fontWeight: FontWeight.w500),
+                  ),
+                  Text(
+                    "Tamanho: ${cartProduct.size}",
+                    style: TextStyle(
+                      fontWeight: FontWeight.w300,
+                    ),
+                  ),
+                  Text(
+                    "R\$ ${cartProduct.productData.price.toStringAsFixed(2)}",
+                    style: TextStyle(
+                      color: Theme.of(context).primaryColor,
+                      fontSize: 16.0,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                    children: <Widget>[
+                      IconButton(
+                        color: Theme.of(context).primaryColor,
+                        icon: Icon(Icons.remove),
+                        onPressed: cartProduct.quantity > 1 ? () {} : null,
+                      ),
+                      Text(cartProduct.quantity.toString()),
+                      IconButton(
+                        color: Theme.of(context).primaryColor,
+                        icon: Icon(Icons.add),
+                        onPressed: () {},
+                      ),
+                      FlatButton(
+                        child: Text("Remover"),
+                        textColor: Colors.grey[500],
+                        onPressed: () {},
+                      )
+                    ],
+                  )
+                ],
+              ),
+            ),
+          )
+        ],
+      );
     }
 
     return Card(
