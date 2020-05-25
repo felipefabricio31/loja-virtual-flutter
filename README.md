@@ -1,8 +1,8 @@
-# Agenda de Contatos
+# Loja Virtual
 
-<img src="https://user-images.githubusercontent.com/29135156/82818494-2c4fa200-9e75-11ea-9d28-91f56de742b8.jpeg" width="30%" heigth="auto">
-<img src="https://user-images.githubusercontent.com/29135156/82818482-2a85de80-9e75-11ea-9a37-911a526b19cb.jpeg" width="30%" heigth="auto">
-<img src="https://user-images.githubusercontent.com/29135156/82818488-2bb70b80-9e75-11ea-83b5-f11337256498.jpeg" width="30%" heigth="auto">
+<img src="https://user-images.githubusercontent.com/29135156/82818494-2c4fa200-9e75-11ea-9d28-91f56de742b8.jpeg" width="100%" heigth="auto">
+<img src="https://user-images.githubusercontent.com/29135156/82818482-2a85de80-9e75-11ea-9a37-911a526b19cb.jpeg" width="100%" heigth="auto">
+<img src="https://user-images.githubusercontent.com/29135156/82818488-2bb70b80-9e75-11ea-83b5-f11337256498.jpeg" width="100%" heigth="auto">
 
 ## Introdução
 
