@@ -1,11 +1,15 @@
 # Agenda de Contatos
 
-<img src="" width="100%" heigth="auto">
+<img src="https://user-images.githubusercontent.com/29135156/82818494-2c4fa200-9e75-11ea-9d28-91f56de742b8.jpeg" width="30%" heigth="auto">
+<img src="https://user-images.githubusercontent.com/29135156/82818482-2a85de80-9e75-11ea-9a37-911a526b19cb.jpeg" width="30%" heigth="auto">
+<img src="https://user-images.githubusercontent.com/29135156/82818488-2bb70b80-9e75-11ea-83b5-f11337256498.jpeg" width="30%" heigth="auto">
 
 ## Introdução
 
-App desenvolvido em Flutter com a opção de CRUD que salva as informações no Firebase e retorna em tempo real.
-<p>Este app apresenta o conceito de Chat Online, o app permite a o envio e recebimento de mensagens ou fotos de outros usuários, toda informação é armazenada no Firebase e o login é realizado pelo google.</p>
+Loja virtual desenvolvida em Flutter com Firebase.
+
+<p>Este app é uma loja virtual que foi desenvolvida em flutter com Firebase, nele temos a possibilidade de apresentar os produtos e 
+realizar uma compra, adicionar um cupom e finalizar a compra. Lembrando que está versão é apenas para o cliente e a visão do administrador, será em outro repositório.  Utilizamos diversos recurso interessantes, entre eles o Model que pode ser acessado durante todo o estado do app, sendo assim, quando alterado, todo o contexto pode ser atualizado.</p>
 
 # Pacotes utilizados
 
@@ -18,7 +22,6 @@ App desenvolvido em Flutter com a opção de CRUD que salva as informações no 
     firebase_auth: ^0.11.1+12
     url_launcher: ^5.1.1
 </pre>
-
 
 ## Publicar app Flutter
 
@@ -77,7 +80,6 @@ App desenvolvido em Flutter com a opção de CRUD que salva as informações no 
             print(dado.data);
         });
     </pre>
-
 
 ## Recursos do Flutter
 
