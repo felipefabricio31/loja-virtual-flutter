@@ -8,6 +8,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:922527072825:android:c39a19561f52a18554c3e8",
+        "android_client_info": {
+          "package_name": "br.com.godtech.loja_gerente"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922527072825-jfj95cfq4jkji82vmdk3lavfs8evr0d7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL0Nnhu7LLfCQhvSnYlxU2EDWfR0y9N1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922527072825-jfj95cfq4jkji82vmdk3lavfs8evr0d7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:922527072825:android:991520b806608a3954c3e8",
         "android_client_info": {
           "package_name": "br.com.loja_virtual.loja_virtual"
